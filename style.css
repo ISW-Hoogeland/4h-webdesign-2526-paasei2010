@@ -16,14 +16,19 @@ body {
 }
 
 header {
+   grid-area: header;
    margin: 0;
    font-size: 2.2rem;
+   text-align: center;
+}
+nav {
+   grid-area: nav;
 }
 nav ul{
-   grid-area: nav;
+   
    list-style:none; 
-   display: flex; 
-   gap: 15 px;
+   display: list-item; 
+   gap: 15px;
 }
 
 nav a{
